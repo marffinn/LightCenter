@@ -1,0 +1,20 @@
+body {
+    padding: 0;
+    margin: 0px;
+    overflow: hidden
+}
+#container {
+    padding: 0;
+    margin: :0;
+    background: rgb(254,252,234);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(254,252,234,1) 0%, rgba(239,225,136,1) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(254,252,234,1) 0%,rgba(239,225,136,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(254,252,234,1) 0%,rgba(239,225,136,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#efe188',GradientType=1 );
+}
+.button_container {
+    position: absolute;
+    display: block;
+    float: left;
+    margin: 20px;
+}
