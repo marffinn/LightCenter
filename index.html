@@ -10,11 +10,15 @@
         <link rel="stylesheet" type="text/css" href="datgui.css">
 	</head>
 
-	<body>
+	<body onload="initAnimate()" style="cursor:move">
         
         <div class="button_container">
-            <button onclick="moveTop()">Move Top</button>
-            <button onclick="switchLight()">Switch light</button>
+            <section>
+                <input type="checkbox" id="light-switch" state="off" />
+                <label for="light-switch"></label>
+                <p>wyłącz światło</p>
+                <p>włącz światło</p>
+            </section>
         </div>
         
         <div id="container"></div>
@@ -26,5 +30,6 @@
         <script type="text/javascript" src="lib/OrbitControls.js"></script>
         <script type="text/javascript" src="lib/dat.gui.min.js"></script>
         <script type="text/javascript" src="lib/mainscene.js"></script>
+        
 	</body>
 </html>
