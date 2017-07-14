@@ -19,7 +19,7 @@
         "blending":"NormalBlending",
         "shading":"phong",
         "mapDiffuseWrap":["repeat","repeat"],
-        "transparent":false,
+        "transparent":true,
         "opacity":1,
         "doubleSided":false
     }],
@@ -28,9 +28,7 @@
     "metadata":{
         "normals":185,
         "vertices":1395,
-        "generator":"io_three",
         "materials":1,
-        "version":3,
         "type":"Geometry",
         "faces":1137,
         "uvs":1
