@@ -39,6 +39,21 @@ body {
     cursor: pointer;
     padding: 0;
 }
+.fullscreen_container {
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.fullscreen_container img {
+    width: 20px;
+    float: left;
+}
+
 .volume_container img {
     width: 20px;
     float: left;

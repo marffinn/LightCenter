@@ -1,49 +1,55 @@
 <!doctype html>
 
 <html>
-	<head>
-		<title>SpotLight</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1.0">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
 
-	<body onload="initAnimate(1)" style="cursor:move">
-        
-        <div class="button_container">
-            <section>
-                <input type="checkbox" id="light-switch" state="off" />
-                <label for="light-switch"></label>
-                <p>wyłącz światło</p>
-                <p>włącz światło</p>
-            </section>
-        </div>
-        
-        <div class="switch_model next_model">
-            <div class="next"></div>
-            <div class="prev"></div>
-        </div>
-        <div class="switch_model prev_model">
-            <div class="next"></div>
-            <div class="prev"></div>
-        </div>
-        
-        <div class="volume_container" state="on">
-            <img src="lib/music/on.svg">
-        </div>
-        
-        <div id="container"></div>
-        
-        
-        <script type="text/javascript" src="lib/core/jquery.min.js"></script>
-        <script type="text/javascript" src="lib/core/three.min.js"></script>
-        <script type="text/javascript" src="lib/core/Tween.js"></script>
-        <script type="text/javascript" src="lib/core/JSONLoader.js"></script>
-        <script type="text/javascript" src="lib/core/OrbitControls.js"></script>
-        
-        <script type="text/javascript" src="lib/models/driver.js"></script>
-        <script type="text/javascript" src="lib/mainscene.js"></script>
-        
-	</body>
+<head>
+    <title>SpotLight</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body onload="initAnimate(1)" style="cursor:move">
+
+    <div class="button_container">
+        <section>
+            <input type="checkbox" id="light-switch" state="off" />
+            <label for="light-switch"></label>
+            <p>wyłącz światło</p>
+            <p>włącz światło</p>
+        </section>
+    </div>
+
+    <div class="switch_model next_model">
+        <div class="next"></div>
+        <div class="prev"></div>
+    </div>
+    <div class="switch_model prev_model">
+        <div class="next"></div>
+        <div class="prev"></div>
+    </div>
+
+    <div class="volume_container" state="on">
+        <img src="lib/music/on.svg">
+    </div>
+
+    <div class="fullscreen_container" state="off">
+        <img src="lib/core/fullscreen.svg">
+    </div>
+
+    <div id="container"></div>
+
+    <script type="text/javascript" src="lib/core/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/core/three.min.js"></script>
+    <script type="text/javascript" src="lib/core/Tween.js"></script>
+    <script type="text/javascript" src="lib/core/JSONLoader.js"></script>
+    <script type="text/javascript" src="lib/core/OrbitControls.js"></script>
+    <script type="text/javascript" src="http://webapps.knowledgefactory.co.za/Diddit/vendor/threex/threex.fullscreen.js"></script>
+
+    <script type="text/javascript" src="lib/models/driver.min.js"></script>
+    <script type="text/javascript" src="lib/mainscene.min.js"></script>
+
+</body>
+
 </html>
