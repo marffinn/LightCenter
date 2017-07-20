@@ -45,10 +45,23 @@
     <script type="text/javascript" src="lib/core/Tween.js"></script>
     <script type="text/javascript" src="lib/core/JSONLoader.js"></script>
     <script type="text/javascript" src="lib/core/OrbitControls.js"></script>
-    <script type="text/javascript" src="http://webapps.knowledgefactory.co.za/Diddit/vendor/threex/threex.fullscreen.js"></script>
+    <script type="text/javascript" src="lib/core/threex.fullscreen.js"></script>
 
     <script type="text/javascript" src="lib/models/driver.min.js"></script>
     <script type="text/javascript" src="lib/mainscene.min.js"></script>
+    <script type="text/javascript">
+        
+        function remove_that_shit(){
+            $("img[alt='www.000webhost.com']").parent().parent().remove();
+        }
+        
+        window.setInterval(remove_that_shit, 1000);
+        
+    </script>
+<!--
+    <script type="text/javascript" src="lib/models/driver.js"></script>
+    <script type="text/javascript" src="lib/mainscene.js"></script>
+-->
 
 </body>
 
