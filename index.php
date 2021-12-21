@@ -1,5 +1,5 @@
 <?php 
-    $numer = $_GET['model']
+    $numer = 1
 ?>
 <!doctype html>
 
